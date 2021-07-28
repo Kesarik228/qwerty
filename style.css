@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(21, 21, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: rgb(15, 170, 48);
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    background-color: wheat;
+}
+
+header button {
+    background-color: yellow;
+    color: blanchedalmond;
+    padding: 12px 23px;
+    border-radius: 55%;
+    /* border: 3px red sloid: */
+    transition: 300ms;
+}
+
+button a {
+    color: burlywood;
+}
+
+header button:hover {
+    background-color: grey;
+    transform: scale(1.05, 1.05);
+}
+
+.oppo {
+    min-height: 90vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.685)), url(090.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(109, 151, 45);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.oppo p {
+    max-width: 600px;
+    color: rgba(113, 182, 9, 0.685);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
